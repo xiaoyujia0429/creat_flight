@@ -97,7 +97,7 @@ export default {
               message: "登录成功",
               duration: 2000
             });
-            //登录成功 跳转到首页
+            //登录成功 跳转到首页登录成功 跳转到首页
             this.$router.push({
               path: "/countcata"
             });
