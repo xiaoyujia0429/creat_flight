@@ -1,0 +1,159 @@
+.index {
+  .el-header {
+   
+    padding: 0px;
+    min-width: 1190px;
+
+    .logo {
+      // position: relative;
+
+      .user {
+        float: left;
+        width: 33%;
+        height: 30px;
+        line-height: 30px;
+        margin: 70px 0 20px;
+      }
+
+      .logofig {
+         float: left;
+        margin-top: 30px;
+        width: 360px;
+        height: 75px;
+        background: url('../image/logo.png') no-repeat top center;
+        cursor: pointer;
+
+      }
+
+      .flight_right {
+        float: right;
+        width: 300px;
+        height: 90px;
+        margin-top: 30px;
+        background: url('../image/flight_right.png') no-repeat top center;
+      }
+    }
+
+  }
+
+  
+
+  .userBox {
+    color: red;
+
+    .user-icon {
+      display: inline-block;
+      width: 30px;
+      height: 30px;
+      border-radius: 15px;
+      overflow: hidden;
+      margin: 0 15px 0 25px;
+      background: url('../image/user_icon.jpg') no-repeat no-repeat;
+    }
+
+    .user-name {
+      display: inline-block;
+      height: 30px;
+      font-size: 18px;
+      color: #333333;
+      margin-right: 10px;
+      overflow: hidden;
+
+      .setting {
+        width: 17px;
+        height: 17px;
+        line-height: 50px;
+        margin-top: 7px;
+        margin-right: 10px;
+        overflow: hidden;
+        background-position: -25px -5px;
+        cursor: pointer;
+      }
+
+      .userinfo {
+        margin-right: 10px;
+      }
+
+      .exit {
+        width: 17px;
+        height: 17px;
+        line-height: 50px;
+        margin-top: 7px;
+        margin-right: 10px;
+        overflow: hidden;
+        background-position: -5px -5px;
+        cursor: pointer;
+
+      }
+    }
+  }
+
+  .el-aside {
+    display:inline-block !important;
+    text-align: left;
+    line-height: 34px;
+
+    /* background: #eaedf1; */
+    min-height: calc(100vh);
+
+    .aisde-title {
+      height: 40px;
+      padding: 8px 10px;
+      span{
+        float: left;
+        height: 40px;
+        color: #fff;
+        font-size: 14px;
+      }
+    }
+
+    .nav-icon-coccweb {
+      background-position: -205px -35px;
+    }
+
+    span.icon {
+      width: 40px;
+      height: 33px;
+      margin-right: 10px;
+    }
+
+    .el-menu-vertical-demo {
+   
+      margin-left: 10px;
+    }
+    .navtab{
+     position: absolute;
+     z-index: 100;
+     top: 50%;
+     left: 220px;
+     width: 12px;
+     height: 60px;
+     line-height: 60px;
+     text-align: center;
+     background-position: -482px -35px;
+     cursor: pointer;
+    }
+  }
+
+  .el-main {
+    background: #Fff;
+     flex-basis: initial !important;
+  }
+}
+/*组件过渡动画*/
+.compAnimate-enter {
+  opacity: 0;
+  transform: translateY(-60px);
+}
+
+.compAnimate-leave-to {
+  opacity: 0;
+}
+
+.compAnimate-enter-active {
+  transition: all .8s ease-in-out;
+}
+
+.compAnimate-leave-active {
+  transition: all .2s ease;
+}
